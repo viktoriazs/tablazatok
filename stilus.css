@@ -1,0 +1,33 @@
+table, td, th {
+    border-bottom: 1px solid gray;
+    border-collapse: collapse; /*cellak ozti resek*/
+}
+
+table {
+    width: 80%;
+    margin: auto;
+}
+
+table>thead>tr{
+    border: 3px solid darkorange;
+
+}
+
+th{
+    background-color: brown;
+    color: beige;
+}
+
+tr :nth-child(odd){
+    color:red;
+    background-color: aquamarine;
+}
+
+.osszevont{
+    background-color: greenyellow;
+}
+
+.responzivtablazat{
+    width:100%;
+    overflow-x: scroll;
+}

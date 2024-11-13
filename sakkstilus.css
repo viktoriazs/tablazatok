@@ -1,0 +1,23 @@
+table, td {
+    border: 1px solid gray;
+    border-collapse: collapse; /*cellak ozti resek*/
+}
+
+table {
+    width: 100%;
+    margin: auto;
+}
+
+td{
+aspect-ratio: 1;
+width: 50px;
+}
+
+.betuk{
+    height: 10px;
+}
+
+.szam{
+    width: 10px;
+}
+

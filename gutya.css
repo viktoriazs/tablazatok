@@ -1,0 +1,26 @@
+table, td, th {
+    border-bottom: 1px solid gray;
+    border-collapse: collapse; /*cellak ozti resek*/
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    background-color: aliceblue;
+}
+h1{
+    font-weight: bold;
+}
+table>thead{
+    font-weight: bold;
+}
+
+.szurke{
+    background-color: gainsboro;
+}
+
+.responzivtablazat{
+    width:100%;
+    overflow-x: scroll;
+}
+
